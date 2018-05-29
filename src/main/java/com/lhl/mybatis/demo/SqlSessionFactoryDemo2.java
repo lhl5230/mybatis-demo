@@ -1,6 +1,4 @@
-package com.lhl.mybaits.demo;
-
-import javax.sql.DataSource;
+package com.lhl.mybatis.demo;
 
 /**
  * Created by hongliang.liu on 2018/5/27.
