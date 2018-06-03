@@ -29,8 +29,8 @@ public class SqlSessionFactoryDemo1 {
         try {
             sqlSession = getSqlSession();
             TestMapper testMapper = sqlSession.getMapper(TestMapper.class);
-            Test test = new Test(2,"lhl");
-            System.out.println(testMapper.insert(test));
+//            Test test = new Test(2,"lhl");
+//            System.out.println(testMapper.insert(test));
 
             System.out.println(testMapper.selectById(1));
             sqlSession.commit();

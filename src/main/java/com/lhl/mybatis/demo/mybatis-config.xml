@@ -8,6 +8,11 @@
     <typeHandler handler="com.lhl.mybatis.typehandler.CustomTypeHandler" />
     <package name="com.lhl.mybatis.typehandler" />
   </typeHandlers>
+  <plugins>
+    <plugin interceptor="com.lhl.mybatis.plugins.ExamplePlugin">
+      <property name="someProperty" value="100"/>
+    </plugin>
+  </plugins>
   <environments default="development">
     <environment id="development">
       <transactionManager type="JDBC"/>
